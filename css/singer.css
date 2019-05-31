@@ -1,0 +1,249 @@
+
+@media (max-width: 1440px) {
+   body{ min-width:1200px;}
+
+}
+
+/*背景图的大小样式*/
+.bg_img>img{
+    height:600px;
+    width: 100% ;
+}
+.bg_img{
+    position: relative;
+    width:100%;
+    height:600px;
+    background:url(../img/bg/2.jpg) no-repeat;
+    background-size: 100% auto;
+}
+.bg_img>h1{
+    position: absolute;
+    color:#cccccc;
+    top:270px;
+    left:35%;
+    font-family: Arial;
+    font-weight: 100;
+}
+.bg_img>span{ position: absolute;top:320px;color: #cccccc;font-family:Arial;font-size: 2rem;left: 45%}
+
+
+/* 歌手搜索  */
+.main>div>a:first-child{
+    background: lightgreen; margin:0 28px 14px 0 ;
+    margin-top:30px;
+    padding:5px;
+}
+/* 歌单字符 */
+.main>div>a{
+    color: black;
+    padding: 15px;
+}
+/* 歌单间距 */
+.main>div{ margin: 20px 0px}
+.main{ padding-left: 120px; }
+
+/* 专辑照片 样式*/
+.singer{ margin-left:10%;margin-right: 10%;}
+/* 专辑div */
+.pic{
+    position: relative;height: 160px;width: 140px;}
+
+/*    2                 对专辑照片的重叠 的样式                */
+.pic>.d2{ background: url(../img/bg/GEM.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    3                 对专辑照片的重叠 的样式                */
+.pic>.d3{ background: url(../img/bg/mao.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    4                 对专辑照片的重叠 的样式                */
+.pic>.d4{ background: url(../img/bg/xue.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    5                 对专辑照片的重叠 的样式                */
+.pic>.d5{ background: url(../img/bg/zhou.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    6                 对专辑照片的重叠 的样式                */
+.pic>.d6{ background: url(../img/bg/jie.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    7                 对专辑照片的重叠 的样式                */
+.pic>.d7{ background: url(../img/bg/AL.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    8                 对专辑照片的重叠 的样式                */
+.pic>.d8{ background: url(../img/bg/WU.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    9                 对专辑照片的重叠 的样式                */
+.pic>.d9{ background: url(../img/bg/Eason.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+/*    10                 对专辑照片的重叠 的样式                */
+.pic>.d10{ background: url(../img/bg/w.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+.pic>.d1{ background: url(../img/bg/chen.jpg) ;
+    height: 140px;width: 140px;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+/*   */
+.pic>.d1>div{ background: url(../img/bg/video.png);
+   opacity: 0;
+}
+.pic>.d1>div:hover{ background: url(../img/bg/video.png);
+    height: 100%;width: 100%;
+    background-size:100% 100%;
+    top: 0px;left: 0px;
+    z-index: 2;
+    opacity: 0.5;}
+
+
+.pic>div{ text-align: center;margin: 5px;}
+.pic>div>a{  color: black;}
+.pic{ margin: 30px;}
+
+.list>div{margin-left:10%;margin-right: 10%;margin-top: 30px; }
+.list>div>a{width:20px;margin-right:5%;margin-left: 5%;color:black;}
+/*  分页  */
+.pagination>.page-item{ margin-right: 2px;margin-left: 2px;}
+.page{ margin-top: 50px;}
+.page>div>ul{ }
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}
+/* 分页样式 */
+.container{
+    /*padding-left:450px;*/
+    padding-left:400px;
+    padding-right: 400px;
+}
+
+
+
+/* header样式  */
+@media (min-width: 992px) {
+}
+@media (min-width: 768px)and (max-width: 992px) {
+    #content>ul>li>input{
+        width: 75%;
+    }
+}
+/* sm 屏幕 样式*/
+@media (max-width: 767px) {
+    #content>ul>li>input{
+        width: 50%;
+        margin-left: 15px;
+    }
+    /* 对小屏的 音乐图进行位置调整样式 */
+    div.row>div{
+        margin-left: 50px;
+    }
+}
+/* logo 部分7样式 */
+#i1{
+    width: 50px;
+    height:50px;
+    margin-left:50px;
+
+}
+/* logo 图片样式*/
+h1>img{
+    margin: 2px;
+
+}
+/* logo文字样式 */
+#logo{
+    font-family: Arial;
+    font-size: 30px;
+}
+/* div a 标签的样式 */
+.nav-item>.nav-link{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Arial;
+
+}
+/* 搜索图的 位置样式*/
+#i2{
+    width: 30px;
+    height: 30px;
+    margin: 5px -42px -1px;
+}
+.nav-item>.nav-link>img{
+    width:28px;height: 15px;
+    padding-left: 3px;
+    margin-top: -5px;
+}
+
+.myheader,.myfooter{
+    width: 100%;
+    height:25rem;
+}
+
+/* footer 样式*/
+.row{
+	margin-right:0px;
+}
+#logo1{
+    width:50px;
+    height:50px;
+    margin-top: 15px;
+}
+#i3>ul>li>img{
+    width: 80px;
+    height: 80px;
+}
+#i3{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+
+
+

@@ -1,0 +1,158 @@
+.myheader,.myfooter{
+    width: 100%;
+}
+.myfooter{
+    height:25rem;
+}
+/* 重写左右箭头样式*/
+.carousel-control-prev, .carousel-control-next{
+    top: 70%;
+    border-radius: 0.25rem;
+    background-color: #aaa;
+    width: 4%; height: 20%;
+}
+/* 指示符重写 */
+.carousel-indicators li{
+    width: 12px;height: 12px;
+    background-color:#00aeef;
+    border-radius: 50%;
+    bottom: -130px;
+}
+.nav_bg{
+    text-color: #fff;
+}
+/*小div 的样式*/
+div.bottom{
+    width:200px; ;
+    bottom: 10%;
+    background-color: #cccccc;
+    position: absolute;
+}
+/* 图片下的 span 的音乐 icon */
+.bottom>span>img{
+    width: 20px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+/*对 播放量的样式*/
+div.bottom>span:nth-child(2){
+    margin-left: 10px;
+}
+/* 对播放小图片的样式 */
+div.bottom>a>img{
+    width: 20px;
+    display: block;
+    float: right;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+/*对大图片的样式*/
+div.bg_img{
+    position: relative;
+    width: 200px;
+}
+
+
+/* 小图片的左右调整*/
+.row>div{
+    padding-left: 15px;
+}
+
+/* header */
+@media (min-width: 992px) {
+}
+@media (min-width: 768px)and (max-width: 992px) {
+    #content>ul>li>input{
+        width: 75%;
+    }
+}
+/* sm 屏幕 样式*/
+@media (max-width: 767px) {
+    #content>ul>li>input{
+        width: 50%;
+        margin-left: 15px;
+    }
+    /* 对小屏的 音乐图进行位置调整样式 */
+    div.row>div{
+        margin-left: 50px;
+    }
+}
+/* logo 部分7样式 */
+#i1{
+    width: 50px;
+    height:50px;
+    margin-left:50px;
+
+}
+/* logo 图片样式*/
+h1>img{
+    margin: 2px;
+
+}
+/* logo文字样式 */
+#logo{
+    font-family: Arial;
+    font-size: 30px;
+}
+/* div a 标签的样式 */
+.nav-item>.nav-link{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Arial;
+
+}
+/* 搜索图的 位置样式*/
+#i2{
+    width: 30px;
+    height: 30px;
+    margin: 5px -42px -1px;
+}
+.nav-item>.nav-link>img{
+    width:28px;height: 15px;
+    padding-left: 3px;
+    margin-top: -5px;
+}
+/*第三个ul img 的样式*/
+.menu>li>a>img{
+    margin: 2px;
+}
+.menu>li:first-child{
+    border:1px solid black;
+  background-color:#cccccc ;
+}
+/*第三个 内容 的样式*/
+.detail{
+    margin:5px 0  ;
+}
+.bg_img>img{
+    width: 200px;
+    height: 200px;
+}
+.detail~p{
+    margin:5px 0  ;
+}
+/* footer 样式*/
+
+#logo1{
+    width:50px;
+    height:50px;
+    margin-top: 15px;
+}
+#i3>ul>li>img{
+    width: 80px;
+    height: 80px;
+}
+#i3{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+

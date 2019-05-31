@@ -1,0 +1,25 @@
+.myheader,.myfooter{
+    width: 100%;
+}
+.myfooter{
+    height:25rem;
+}
+
+
+/* 设置最小宽度  */
+@media (max-width: 1440px) {
+    body{ min-width:1200px;}
+
+}
+
+/* */
+.main{
+    margin: 0 10%;
+}
+
+.top{
+    display: flex;
+}
+.top>span{
+    margin-right:100px;
+}

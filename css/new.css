@@ -1,0 +1,95 @@
+
+/* header */
+@media (min-width: 992px) {
+}
+@media (min-width: 768px)and (max-width: 992px) {
+    #content>ul>li>input{
+        width: 75%;
+    }
+}
+/* sm 屏幕 样式*/
+@media (max-width: 767px) {
+    #content>ul>li>input{
+        width: 50%;
+        margin-left: 15px;
+    }
+    /* 对小屏的 音乐图进行位置调整样式 */
+    div.row>div{
+        margin-left: 50px;
+    }
+}
+/* logo 部分7样式 */
+#i1{
+    width: 50px;
+    height:50px;
+    margin-left:50px;
+
+}
+/* logo 图片样式*/
+h1>img{
+    margin: 2px;
+
+}
+/* logo文字样式 */
+#logo{
+    font-family: Arial;
+    font-size: 30px;
+}
+/* div a 标签的样式 */
+.nav-item>.nav-link{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Arial;
+
+}
+/* 搜索图的 位置样式*/
+#i2{
+    width: 30px;
+    height: 30px;
+    margin: 5px -42px -1px;
+}
+.nav-item>.nav-link>img{
+    width:28px;height: 15px;
+    padding-left: 3px;
+    margin-top: -5px;
+}
+
+
+/* footer 样式*/
+#logo1{
+    width:50px;
+    height:50px;
+    margin-top: 15px;
+}
+#i3>ul>li>img{
+    width: 80px;
+    height: 80px;
+}
+#i3{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.myfooter{
+    height:25rem;
+}
+
+
+/* 内容*/
+/*第三个 内容 的样式*/
+.detail{
+    margin:5px 0  ;
+}
+.bg_img>img{
+    width: 200px;
+    height: 200px;
+}
+.detail~p{
+    margin:5px 0  ;
+}
+
+/* 分页样式 */
+.container>.page{
+    /*padding-left:450px;*/
+    padding-left:400px;
+    padding-right: 400px;
+}
